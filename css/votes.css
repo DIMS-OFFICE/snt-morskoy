@@ -1,0 +1,160 @@
+		html {
+	        background: url(../img/background.jpg);
+	        -webkit-background-size: cover;
+	        -moz-background-size: cover;
+	        -o-background-size: cover;
+	        background-size: cover;
+
+	        background-repeat:no-repeat;
+			background-size:cover;
+			background-position:center;
+		}
+
+		* {
+			scrollbar-width: thin;
+			scrollbar-color: blue orange;
+		}
+
+		/* для Chrome/Edge/Safari */
+		*::-webkit-scrollbar {
+			height: 12px;
+			width: 12px;
+		}
+		*::-webkit-scrollbar-track {
+			background: lightgrey;
+		}
+		*::-webkit-scrollbar-thumb {
+			background-color: royalblue;
+			border-radius: 7px;
+			border: 2px solid orange;
+		}
+
+		.back_btn {
+			margin:10px;
+			width: 180px;
+			background: yellow;
+			border: 2px solid blue;
+			border-radius: 10px;
+			text-align: center;
+			font-size: 20px;
+			font-weight: bold;
+		    padding: 5px;
+			cursor: pointer;
+		}
+
+		#votes_list_div {
+			text-align: center;
+			background: radial-gradient(white, lightgrey);
+			margin: 15px auto;
+			padding-top: 15px;
+			padding-bottom: 10px;
+			width: 55%;
+			min-width: 350px;
+			border-radius: 10px;
+			box-shadow: 0 0 0 60px rgb(0 0 0 / 0%) inset, 0.1em 0.1em 0.2em darkslategrey;
+		}
+
+		#votes_list {
+			margin: 15 auto;
+		}
+
+		#votes_list tr {
+			height: 24px;
+		}
+
+		#votes_list td {
+			width: 180px;
+			vertical-align: middle;
+			cursor: pointer;
+		}
+
+		#votes_list div {
+			height: 22px;
+			padding-top: 4px;
+			border-radius: 3px;
+			background: darkgray;
+			font-size: 16px;
+			overflow: hidden;
+    		text-overflow: ellipsis;
+    		white-space: nowrap;
+    		max-width: 99%;
+		}
+
+		#votes_list td:nth-child(1) div {
+			padding-left: 10px;
+		}
+
+		#votes_list td:nth-child(2) {
+			text-align: center;
+		}
+
+		#votes_list td:nth-child(3) {
+			text-align: center;
+		}
+
+		.active {
+			color:white;
+			font-weight:bold;
+		}
+
+		#new_vote_maket {
+			margin: 0 auto;
+		    margin-bottom: 50;
+		    background: radial-gradient(white, lightgrey);
+		    padding-top: 15px;
+		    padding-bottom: 15px;
+		    width: 525px;
+		    border-radius: 10px;
+		    box-shadow: 0 0 0 60px rgb(0 0 0 / 0%) inset, 0.1em 0.1em 0.2em darkslategrey;
+		}
+
+		#vote_maket .vote_caption {
+			font-size: 32px;
+			font-weight: bold;
+		}
+
+		#vote_maket .vote_question {
+			color: crimson;
+			margin-top: 20px;
+    		background: aquamarine;
+    		font-size: 24px;
+		}
+
+		#vote_maket .vote_tbl {
+			margin: 10px auto;
+			width: 80%;
+		}
+
+		#vote_maket .vote_tbl tr {
+			background: silver;
+		}
+
+		#vote_maket .vote_tbl td {
+			text-align: center;
+		}
+
+		#vote_maket .vote_tbl td:nth-child(2) {
+			text-align: left;
+			padding-left: 12px
+		}
+
+		#vote_maket .vote_tbl td:nth-child(3) {
+			width: 20%;
+		}
+
+		.button {
+			margin:0px auto;
+			background: aliceblue;
+			border: 2px solid blue;
+			border-radius: 10px;
+			text-align: center;
+			font-size: 16px;
+			font-weight: bold;
+		    padding: 5px;
+			cursor: pointer;
+		}
+
+		#vote_controls .results {
+			font-size: 20;
+    		color: blue;
+		}			

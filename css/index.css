@@ -1,0 +1,46 @@
+	html {
+	    background: url(../img/background.jpg);
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+
+	    background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center;
+	}
+
+	#main_div {
+		text-align: center;
+		background: radial-gradient(white, lightgrey);
+		margin: 130px auto;
+		padding-top: 15px;
+		padding-bottom: 10px;
+		width: 50%;
+		min-width: 350px;
+		border-radius: 10px;
+		box-shadow: 0 0 0 60px rgb(0 0 0 / 0%) inset, 0.1em 0.1em 0.2em darkgray;
+	}
+
+	#main_div table {
+		width: 90%;
+		margin-left: 5%;
+
+	}
+
+	#main_div table th {
+		font-size: 22px;
+		background: darkorange;
+   		font-weight: bold;
+   		text-align: center;
+	}
+
+	#main_div table td {
+		font-size: 22px;
+		background: darkgrey;
+		text-align: center;
+	}
+
+	a {
+		text-decoration: none !important;
+	}

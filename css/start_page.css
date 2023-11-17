@@ -1,0 +1,76 @@
+		html {
+	        background: url(../img/background.jpg);
+	        -webkit-background-size: cover;
+	        -moz-background-size: cover;
+	        -o-background-size: cover;
+	        background-size: cover;
+
+	        background-repeat:no-repeat;
+			background-size:cover;
+			background-position:center;
+		}
+
+		* {
+			scrollbar-width: thin;
+			scrollbar-color: blue orange;
+		}
+
+		/* для Chrome/Edge/Safari */
+		*::-webkit-scrollbar {
+			height: 12px;
+			width: 12px;
+		}
+		*::-webkit-scrollbar-track {
+			background: lightgrey;
+		}
+		*::-webkit-scrollbar-thumb {
+			background-color: royalblue;
+			border-radius: 7px;
+			border: 2px solid orange;
+		}
+
+		@font-face {
+		    font-family: 'header_text';
+		    src: url('21063.otf');
+		}
+
+		#main_div {
+			opacity:0;
+		}
+
+		#authorized_btns, #not_authorized_btns {
+			margin:10% auto;
+			text-align: center;
+			font-size: 20px;
+			background: radial-gradient(white, lightgrey);
+			padding-top: 15px;
+			padding-bottom: 15px;
+			width: 45%;
+			min-width: 350px;
+			border-radius: 10px;
+			box-shadow: 0 0 0 60px rgb(0 0 0 / 0%) inset, 0.1em 0.1em 0.2em darkslategrey;
+			color: cadetblue;
+			display: none;
+		}
+
+		#hello_txt {
+			font-family: "header_text";
+		}
+
+		.main_btns {
+			margin:10px auto;
+			width: 190px;
+			background: yellow;
+			border: 2px solid blue;
+			border-radius: 10px;
+			font-size: 20px;
+			font-weight: bold;
+		    padding: 5px;
+			cursor: pointer;
+		}
+
+		#account_status {
+			font-weight: bold;
+		}
+
+

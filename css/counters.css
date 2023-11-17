@@ -1,0 +1,165 @@
+		html {
+	        background: url(../img/background.jpg);
+	        -webkit-background-size: cover;
+	        -moz-background-size: cover;
+	        -o-background-size: cover;
+	        background-size: cover;
+
+	        background-repeat:no-repeat;
+			background-size:cover;
+			background-position:center;
+		}
+
+		* {
+			scrollbar-width: thin;
+			scrollbar-color: blue orange;
+		}
+
+		/* для Chrome/Edge/Safari */
+		*::-webkit-scrollbar {
+			height: 12px;
+			width: 12px;
+		}
+		*::-webkit-scrollbar-track {
+			background: lightgrey;
+		}
+		*::-webkit-scrollbar-thumb {
+			background-color: royalblue;
+			border-radius: 7px;
+			border: 2px solid orange;
+		}
+
+		#add_new_period_btn {
+			width: 400px;
+			margin: 5 auto;
+			background: yellow;
+			border: 2px solid blue;
+			border-radius: 10px;
+			font-size: 30px;
+			font-weight: bold;
+    		padding: 5px;
+    		text-align: center;
+			cursor: pointer;
+		}
+
+		#new_period_form {
+			display: none;
+			position: absolute;
+			z-index: 1000;
+			text-align: center;
+		    background: radial-gradient(white, lightgrey);
+		    padding-left: 25px;
+		    left: 12%;
+    		top: 20%;
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    width: 895px;
+		    border: 1px solid;
+		    border-radius: 10px;
+		    box-shadow: 0 0 0 60px rgb(0 0 0 / 0%) inset, 0.1em 0.1em 0.2em darkslategrey;
+		}
+
+		#new_period_form .counter_doc_btn {
+			width: 90px;
+		    margin: 5 auto;
+		    background: yellow;
+		    border: 2px solid blue;
+		    border-radius: 5px;
+		    font-size: 15px;
+		    font-weight: bold;
+		    text-align: center;
+		    cursor: pointer;
+		}
+
+		#new_period_form .save_btn {
+			width: 115px;
+		    margin: 5 auto;
+		    background: aliceblue;
+		    border: 2px solid blue;
+		    border-radius: 5px;
+		    font-size: 20px;
+		    font-weight: bold;
+		    text-align: center;
+		    cursor: pointer;
+		}
+
+		#new_period_form .error_msg {
+			width: 100%;
+			color: red;
+			font-weight: bold;
+			text-align: center;
+		}
+
+		#new_period_form select {
+			background: yellow;
+			border-radius: 5px;
+    		border: 2px solid;
+    		height: 21px;
+		}
+
+		#new_period_form input {
+		    background: yellow;
+		    border-radius: 5px;
+		    text-align: center;
+		    width: 125px;
+		}
+
+		#counters_list_div {
+			margin-left: 3%;
+			text-align: center;
+			font-size: 20px;
+			background: radial-gradient(white, lightgrey);
+			padding-top: 15px;
+			padding-bottom: 15px;
+			width: 95%;
+			border-radius: 10px;
+			box-shadow: 0 0 0 60px rgb(0 0 0 / 0%) inset, 0.1em 0.1em 0.2em darkslategrey;
+			color: cadetblue;
+			overflow-y: auto;
+			height: 85%;
+			overflow-y: auto;
+		}
+
+		#counters_list th:nth-child(1) {width:150px}
+		#counters_list th:nth-child(2) {width:100px}
+		#counters_list th:nth-child(3) {width:120px}
+		#counters_list th:nth-child(4) {width:200px}
+		#counters_list th:nth-child(5) {width:100px}
+		#counters_list th:nth-child(6) {width:100px}
+		#counters_list th:nth-child(7) {width:100px}
+		#counters_list th:nth-child(8) {width:100px}
+
+		#counters_list div {
+		    height: 22px;
+		    padding-top: 4px;
+		    border-radius: 3px;
+		    background: darkgray;
+		    font-size: 16px;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    white-space: nowrap;
+		    max-width: 99%;
+		    text-align: center;
+		}
+
+		#counters_list {
+			margin: 15 auto;
+		}
+
+		#counters_list tr {
+			height: 24px;
+		}
+
+		#counters_list td {
+			vertical-align: middle;
+		}
+
+		#foto_prev_div {
+			position: absolute;
+    		z-index: 1000;
+    		left: 36%;
+    		top: 10%;
+    		cursor: pointer;
+			border: 2px solid cadetblue;
+    		border-radius: 5px;    		
+		}		

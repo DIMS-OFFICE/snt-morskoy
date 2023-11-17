@@ -1,0 +1,193 @@
+		html {
+	        background: url(../img/background.jpg);
+	        -webkit-background-size: cover;
+	        -moz-background-size: cover;
+	        -o-background-size: cover;
+	        background-size: cover;
+
+	        background-repeat:no-repeat;
+			background-size:cover;
+			background-position:center;
+		}
+
+		* {
+			scrollbar-width: thin;
+			scrollbar-color: blue orange;
+		}
+
+		/* для Chrome/Edge/Safari */
+		*::-webkit-scrollbar {
+			height: 12px;
+			width: 12px;
+		}
+		*::-webkit-scrollbar-track {
+			background: lightgrey;
+		}
+		*::-webkit-scrollbar-thumb {
+			background-color: royalblue;
+			border-radius: 7px;
+			border: 2px solid orange;
+		}
+
+		#main_tbl {
+			width: 100%;
+		}
+
+		#main_tbl td {
+			vertical-align: top;
+		}
+
+		#main_menu {
+			text-align: center;
+			font-size: 20px;
+			background: radial-gradient(white, lightgrey);
+			padding-top: 15px;
+			padding-bottom: 15px;
+			height: 85%;
+			min-width: 210px;
+			border-radius: 10px;
+			box-shadow: 0 0 0 60px rgb(0 0 0 / 0%) inset, 0.1em 0.1em 0.2em darkslategrey;
+			overflow-y: auto;
+		}
+
+		.main_btns {
+			margin:10px auto;
+			width: 180px;
+			background: yellow;
+			border: 2px solid blue;
+			border-radius: 10px;
+			text-align: center;
+			font-size: 20px;
+			font-weight: bold;
+		    padding: 5px;
+			cursor: pointer;
+		}
+
+		.right_frame {
+			margin-left: 3%;
+			text-align: center;
+			font-size: 20px;
+			background: radial-gradient(white, lightgrey);
+			padding-top: 15px;
+			padding-bottom: 15px;
+			width: 95%;
+			border-radius: 10px;
+			box-shadow: 0 0 0 60px rgb(0 0 0 / 0%) inset, 0.1em 0.1em 0.2em darkslategrey;
+			color: cadetblue;
+			overflow-y: auto;
+		}
+
+		#add_new_document_btn {
+			width: 400px;
+			margin: 5 auto;
+			background: yellow;
+			border: 2px solid blue;
+			border-radius: 10px;
+			font-size: 30px;
+			font-weight: bold;
+    		padding: 5px;
+			cursor: pointer;
+			display: none;
+		}
+
+		#docs_list_form {
+			text-align: center;
+			background: radial-gradient(white, lightgrey);
+			margin: 15px auto;
+			padding-top: 15px;
+			padding-bottom: 10px;
+			width: 55%;
+			min-width: 350px;
+			border-radius: 10px;
+			box-shadow: 0 0 0 60px rgb(0 0 0 / 0%) inset, 0.1em 0.1em 0.2em darkslategrey;
+		}
+
+		#docs_list_div {
+			height: 92%;
+			overflow-y: auto;
+		}
+
+		#docs_list {
+			margin: 15 auto;
+		}
+
+		#docs_list tr {
+			height: 24px;
+		}
+
+		#docs_list td {
+			vertical-align: middle;
+		}
+
+		#docs_list div {
+			height: 22px;
+			padding-top: 4px;
+			border-radius: 3px;
+			background: darkgray;
+			font-size: 16px;
+			overflow: hidden;
+    		text-overflow: ellipsis;
+    		white-space: nowrap;
+    		max-width: 99%;
+		}
+
+		#docs_list td:nth-child(1) {
+			width: 300px;
+			color: blue;
+    		cursor: pointer;
+		}
+
+		#docs_list td:nth-child(2) {
+			width: 90px;
+			text-align: center;
+		}
+
+		.transparent {
+			background:rgba(0, 0, 0, 0)!important;
+			color:red;
+			font-weight:bold;
+		}
+
+		#document_group_div {
+			position: absolute;
+			z-index: 1000;
+			top: 20%;
+    		left: 30%;
+			text-align: center;
+			background: radial-gradient(white, lightgrey);
+			padding-top: 15px;
+			padding-bottom: 10px;
+			width: 555px;
+			height: 400px;
+			border-radius: 10px;
+			box-shadow: 0 0 0 60px rgb(0 0 0 / 0%) inset, 0.1em 0.1em 0.2em darkslategrey;
+			overflow-y: auto;
+			display: none;
+		}
+
+		#document_group_tbl {
+			margin: 15 auto;
+			width: 88%;
+		}
+
+		#document_group_tbl tr {
+			height: 24px;
+		}
+
+		#document_group_tbl td {
+			vertical-align: middle;
+			color: blue;
+    		cursor: pointer;
+		}
+
+		#document_group_tbl div {
+			height: 22px;
+			padding-top: 4px;
+			border-radius: 3px;
+			background: darkgray;
+			font-size: 16px;
+			overflow: hidden;
+    		text-overflow: ellipsis;
+    		white-space: nowrap;
+    		max-width: 99%;
+		}
